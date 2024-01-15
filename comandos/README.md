@@ -18,7 +18,7 @@ git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
 
-# Migrando a base de dados do Django
+# Migrando a base de dados do Django (pode ser alteraçoes no model)
 
 python manage.py makemigrations
 python manage.py migrate
